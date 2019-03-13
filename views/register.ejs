@@ -1,0 +1,8 @@
+<% include ./partials/header.ejs %>
+<h1>Register Page</h1>
+<form action="/register" method="POST">
+  <input type="text" name="username" placeholder="Username" required>
+  <input type="password" name="password" placeholder="Password" required>
+  <input type="submit">
+</form>
+<% include ./partials/footer.ejs %>
